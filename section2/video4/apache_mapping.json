@@ -1,0 +1,12 @@
+{
+   "properties": {
+     "time":      { "type": "date", "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis" },
+     "log_level": { "type": "keyword" },
+     "pid":       { "type": "integer" },
+     "host":      { "type": "keyword" },
+     "url":       { "type": "keyword" },
+     "status":    { "type": "integer" },
+     "client":    { "type": "ip"      },
+     "message":   { "type": "text"    }
+  }
+}

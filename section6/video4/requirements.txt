@@ -1,0 +1,4 @@
+requests
+Flask==0.12.2
+Flask-RESTful==0.3.1
+elastic-apm==2.0.1

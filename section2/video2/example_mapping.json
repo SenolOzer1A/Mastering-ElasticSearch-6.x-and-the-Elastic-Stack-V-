@@ -1,0 +1,28 @@
+{
+    "mappings": {
+        "race": {
+            "properties": {
+                "name": {
+                    "type": "text"
+                }, 
+                "type": {
+                    "type": "keyword"
+                }, 
+                "advertised_distance": {
+                    "type": "float"
+                }, 
+                "duration_seconds": {
+                    "type": "integer"
+                }, 
+                "start_time": {
+                    "type": "date", 
+                    "format": "strict_date_optional_time||epoch_millis"
+                }, 
+                "start_location": "geo_point", 
+                "shape_of_maine": "geo_shape"
+            }
+        }
+    }
+}
+
+
